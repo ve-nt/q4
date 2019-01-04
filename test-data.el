@@ -115,6 +115,7 @@ and int PAGE-NUM"
    :images (alist-get-prop 'images)
    :page page-num
    :last-modified (alist-get-prop 'last_modified)))
+
 (defun q4/set-comment-properties (alist board )
   "sets the properties of the thread struct THREAD-STRUCT
 based of alist ALIST
@@ -266,5 +267,3 @@ and the replies being children of other posts"
 
 
 (q4/thread-struct-no (car (q4/threads-search-by-property (q4/board-struct-threads boards) 'comment "Fuck google")))
-67187950
-
