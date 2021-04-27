@@ -1,3 +1,7 @@
+# Fork Notice
+
+This is a fork. The original repo I got my copy from 404'd, and so I have reuploaded it here. I will work to improve some aspects of this project over time where I can. Feel free to submit PRs and issues if you want.
+
 # Browse 4chan completely in ~~parenthesis~~ Emacs Lisp.
 
 **REQUIRES EMACS 25**
