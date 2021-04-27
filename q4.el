@@ -1788,9 +1788,7 @@ mpv depending on the file type."
          "mpv" nil (format "wget -O /tmp/4gif %s;
                             emacsclient -e '(message \" \")';
                             mpv --loop=inf /tmp/4gif" addr))
-      (start-process-shell-command
-       "feh" nil (format "wget -O - %s | feh -FZ -" addr)))))
-
+      (eww addr))))
 
 (defun q4/postprocess ()
   "Scans forward from current point position and applies cosmetic changes
