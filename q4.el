@@ -1911,4 +1911,5 @@ thread number."
   (q4/thread json buffer board thread)
   (q4/seek-post post nil t))
 
+(provide 'q4)
 ;; HI IM DAISY
